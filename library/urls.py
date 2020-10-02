@@ -27,3 +27,9 @@ urlpatterns = [
     url(r'^signup/$', core_views.signup, name='signup'),
     url(r'^library/', include('libman.urls')),
 ]
+
+
+#Change Site Title, Index Title and Site Title
+admin.site.site_header = "Library-Management-System Administration"
+admin.site.site_title = "Library-Management-System Administration"
+admin.site.index_title = "Welcome to Library-Management-System Administration Admin Panel"
